@@ -28,7 +28,7 @@
 		C8C7D35C189E102400FF08D2 /* NumberWriter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberWriter; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C7D35F189E102400FF08D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C8C7D361189E102400FF08D2 /* NumberWriter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumberWriter.1; sourceTree = "<group>"; };
-		C8C7D368189E14D300FF08D2 /* Result */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Result; sourceTree = "<group>"; };
+		C8C7D368189E14D300FF08D2 /* Result */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Result; path = NumberWriter/Result; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		C8C7D353189E102400FF08D2 = {
 			isa = PBXGroup;
 			children = (
+				C8C7D368189E14D300FF08D2 /* Result */,
 				C8C7D35E189E102400FF08D2 /* NumberWriter */,
 				C8C7D35D189E102400FF08D2 /* Products */,
 			);
@@ -62,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				C8C7D35F189E102400FF08D2 /* main.cpp */,
-				C8C7D368189E14D300FF08D2 /* Result */,
 				C8C7D361189E102400FF08D2 /* NumberWriter.1 */,
 			);
 			path = NumberWriter;
