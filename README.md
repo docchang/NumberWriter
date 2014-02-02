@@ -7,7 +7,7 @@ Given a positive number integer, compute the written text for the number. Number
 
 Approach
 ========
-First step is to read 3 digits at a time and break it up into single digits. By using the helper function "ThousandWriter" it will write out the text. I then proceed breaking down the problem recursively by having each thousand as one level.
+First step is to be able to break up 3 digits at a time into its individual digits. By using the helper function "ThousandWriter" it will write out the text for each 3-digit increment. I then proceed breaking down the problem recursively by concatenate per thousand.
 
 ##Induction
 ####Base cases
