@@ -11,8 +11,8 @@ First step is to be able to break up 3 digits at a time into its individual digi
 
 ##Induction
 ####Base cases
-Number=0,Level=0 -> return "Zero"
-Number=0 -> return ""
+1. Number=0,Level=0 -> return "Zero"
+2. Number=0 -> return ""
 
 ####Inductive Step
 Append the current string from "ThousandWriter" to the result of the recursion.
